@@ -1,0 +1,127 @@
+
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    font-family: "Playwrite BE WAL", cursive;
+  font-optical-sizing: auto;
+}
+
+
+
+
+header{
+    font-family: "Playwrite DE Grund", cursive;
+  font-optical-sizing: auto; 
+   /* width: 100%;
+  background-color:blue; */
+  
+  
+}
+.banner-1{
+  width: 100%;
+  
+  /* height: 550px; */
+  background-image: linear-gradient(to top,#e6b782  0%, #ffffff 100%);
+}
+
+.name{
+  font-family: "Playwrite BE WAL", cursive;
+    /* font-family: "Playwrite DE Grund", cursive; */
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 1.6;
+    color: black;
+    
+    position: relative;
+
+}
+.name-1{
+  font-family: "Playwrite DE Grund", cursive;
+  /* font-family: "Playwrite BE WAL", cursive; */
+  position: relative;
+  margin-left: -8px;
+  font-weight: bolder;
+padding-top: 20px;
+
+
+/* background-color: blue; */
+}
+
+.pargraph{
+  width: 100%;
+  /* height:1000px; */
+  display: flex;
+  justify-content: center;
+   background-color: rgb(22, 22, 22);
+  
+   /* font-family: "Playwrite DE Grund", cursive; */
+   /* font-family: "Playwrite BE WAL", cursive; */
+   font-family:  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+.container-1{
+  background-image: url(/img/coffee-spread.png);
+   background-attachment: fixed;
+  background-size:auto;
+  
+}
+h2 u{
+  background-image: linear-gradient(to right,#fa3707  0%, #f0bc12 100%);
+  -webkit-background-clip: text;
+ -moz-background-clip: text;
+ -webkit-text-fill-color: transparent;
+ moz-text-fill-color: transparent;
+ text-decoration: rgba(212, 130, 6, 0.925) underline;
+ font-family:  "Playwrite DE Grund", cursive;
+ font-weight: bolder;
+ 
+ 
+}
+.cube{
+  /* background-color: #ffffff; */
+  width: 100%;
+  height: 450px;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  border:#e6b782 solid 2px ;
+  background-image: linear-gradient(to top,#0e0d0d  0%, #474747 100%);
+}
+button{
+  transform: translatey(-200%);
+  background:none;
+   /* border: #f7d8b6 2px solid ;  */
+   border-radius: 5px; 
+   font-family: "Playwrite DE Grund", cursive; 
+   cursor: pointer;
+}
+.footer{
+float: left;
+  margin: 10px 20px;
+  padding: 4px;
+  color: #f3f0ed;
+  font-size: 30px;
+  border-radius: 70%;
+  box-shadow:0 4px 6px 0 ;
+  transition: transform .5s;
+ 
+  
+}
+.footer:hover{
+  transform: translate(0,-20%);
+}
+.details{
+  color: #f3f0ed;
+  margin: 10px 20px ;
+  
+
+ 
+  
+  
+ 
+  
+}
