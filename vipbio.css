@@ -62,7 +62,7 @@ padding-top: 20px;
    
 }
 .container-1{
-  background-image: url(/img/coffee-spread.png);
+  background-image: url(./img/coffee-spread.png);
    background-attachment: fixed;
   background-size:auto;
   
